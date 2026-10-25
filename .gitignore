@@ -1,0 +1,30 @@
+# CMake and C++ builds
+build/
+build-*/
+out/
+CMakeUserPresets.json
+compile_commands.json
+.cache/
+*.user
+*.autosave
+
+# Flatpak builds
+.flatpak-builder/
+builddir/
+repo/
+*.flatpak
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Spike and device-test output: may contain Steam IDs, usernames, or paths
+spikes/output/
+
+# Planning notes and Claude Code files: local to the developer's machine, never pushed
+docs/
+CLAUDE.md
+CLAUDE.local.md
+.claude/
